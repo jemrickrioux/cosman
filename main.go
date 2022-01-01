@@ -4,7 +4,9 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/jemrickrioux/cosman/cmd"
+import (
+	"github.com/jemrickrioux/cosman/cmd"
+)
 
 func main() {
 	cmd.Execute()
